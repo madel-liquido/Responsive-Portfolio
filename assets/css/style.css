@@ -56,13 +56,17 @@ h4 {
 	padding-top: 15px;
 }
 
-.fa {
+#fontAwesomeIcons {
 	font-size: 30px;
 	width: 50px;
 	height: 50px;
 	text-align: center;
 	text-decoration: none;
-	text-align: center;
+  text-align: center;
+  color: white;
+	padding-top: 15px;
+	font-size: 20px;
+	margin-right: 15px;
 }
 
 .fa:hover {
@@ -71,25 +75,14 @@ h4 {
 
 .fa-linkedin {
 	background: #3B5998;
-	color: white;
-	padding-top: 15px;
-	font-size: 20px;
-	margin-right: 15px;
 }
 
 .fa-github {
 	background: black;
-	color: white;
-	padding-top: 15px;
-	font-size: 20px;
-	margin-right: 15px;
 }
 
 .fa-deviantart {
 	background: seagreen;
-	color: white;
-	padding-top: 15px;
-	font-size: 20px;
 }
 
 .portfolio-item {
@@ -169,6 +162,10 @@ h4 {
 	text-align: left;
 }
 
+#jumboPadding{
+  padding-top: 0;
+}
+
 #sticky-footer {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: white;
@@ -176,5 +173,17 @@ h4 {
 	width: 100%;
 	height: 30px;
 	border-top: 3px solid #4aaaa5;
-	position: fixed;
+  position: fixed;
 }
+
+.sticky-background{
+  z-index: 100;
+  height:30px;
+  padding:0;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color:white;
+}
+
